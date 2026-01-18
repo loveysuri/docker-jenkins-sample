@@ -39,7 +39,7 @@ jobs:
     - name: Build and Push Docker image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-          image: your-dockerhub-username/your-image-name
+          image: lovekumar63988/springboot-docker
           tags: latest
           registry: docker.io
           username: ${{ secrets.DOCKER_USERNAME }}
